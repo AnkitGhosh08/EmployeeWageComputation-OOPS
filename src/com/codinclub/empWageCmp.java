@@ -3,6 +3,7 @@ package com.codinclub;
 public class empWageCmp
 {
     int isFullTime = 1;
+    int isPartTime = 2;
     int empRatePerHrs = 20;
     int empHrs = 8;
     int empWage=0;
@@ -15,8 +16,10 @@ public class empWageCmp
         if (empCheck == isFullTime) {
             System.out.println("Employee is present");
             empHrs = 8;
-        } else
-        {
+        }else if( empCheck == isPartTime) {
+            System.out.println("Employee is present");
+            empHrs = 4;
+        } else {
             System.out.println("Employee is absent");
             empHrs = 0;
         }
