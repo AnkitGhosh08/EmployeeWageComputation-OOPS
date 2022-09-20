@@ -6,7 +6,7 @@ public class main
     {
         System.out.println(" --  Welcome to Employee wage Computation problem  -- ");
 
-        empWageCmp empWageCmp = new empWageCmp();
-        empWageCmp.monthlyWage();
+        empWageCmpClassMethod empWageCmp = new empWageCmpClassMethod();
+        empWageCmp.computeEmpWage();
     }
 }
