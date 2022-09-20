@@ -7,6 +7,6 @@ public class main
         System.out.println(" --  Welcome to Employee wage Computation problem  -- ");
 
         empWageCmp empWageCmp = new empWageCmp();
-        empWageCmp.dailyWage();
+        empWageCmp.monthlyWage();
     }
 }
